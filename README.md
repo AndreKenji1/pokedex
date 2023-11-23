@@ -37,6 +37,7 @@ Um módulo de exclusão que remove um Pokémon específico da Pokedex. Pode incl
 
 ## Funcionalidade
 - O primeiro método é o GET,que vai trazer todos os pokémons que foram salvos, no postman ira trazer os seguintes resultados:
+ 
   
   
   
