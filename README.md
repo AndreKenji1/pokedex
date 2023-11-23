@@ -41,6 +41,7 @@ Um módulo de exclusão que remove um Pokémon específico da Pokedex. Pode incl
 ![Screenshot 2023-11-23 165547](https://user-images.githubusercontent.com/149121429/285298715-79ac8672-030d-4977-ac15-95657fe3f6f8.png)
 
 - Operação PUT para Atualizar um Pokémon: Atualiza os detalhes de um Pokémon existente com base no ID.
+- caso não há o pokemon desejado,surgirá notfound 
 
 - Operação SET para Modificar Atributos de um Pokémon: : Modifica os atributos de um Pokémon existente com base no ID
 
