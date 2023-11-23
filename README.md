@@ -34,6 +34,9 @@ Um módulo de leitura que possibilita a busca de Pokémon com base em critérios
 Um módulo de atualização que permite a modificação dos atributos de um Pokémon existente na Pokedex. Pode incluir validações para garantir consistência.
 - Exclusão de Pokémon (Delete):
 Um módulo de exclusão que remove um Pokémon específico da Pokedex. Pode incluir confirmações para evitar exclusões acidentais.
+
+## Funcionalidade
+- O primeiro método é o GET,que vai trazer todos os pokémons que foram salvos, no postman ira trazer os seguintes resultados:
   
   
   
