@@ -28,7 +28,7 @@ A aplicação visa fornecer informações de um pokemon,como seus atributos e su
 ## Descrição da Arquitetura
 
 - A classe PokemonController é um componente Spring Boot responsável por gerenciar as requisições relacionadas aos Pokémons.
-- 
+ 
 - Endpoints RESTful:
 
 O controlador define vários endpoints RESTful para realizar operações CRUD (Create, Read, Update, Delete) em entidades Pokemon.
