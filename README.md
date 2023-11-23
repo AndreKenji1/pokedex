@@ -26,14 +26,27 @@ A aplicação visa fornecer informações de um pokemon,como seus atributos e su
   - Java : a linguagem tem um desempenho bastante sólido. Em particular, para APIs e aplicações empresariais, o desempenho do Java é muitas vezes mais do que adequado.
 
 ## Descrição da Arquitetura
-- Criação de Pokémon (Create):
-Um módulo de criação de Pokémon que permite a inserção de novos Pokémon na Pokedex. Pode incluir validações para garantir dados consistentes.
-- Leitura de Pokémon (Read):
-Um módulo de leitura que possibilita a busca de Pokémon com base em critérios como nome, tipo, ou número. Isso incluirá métodos para listar todos os Pokémon e obter detalhes específicos.
-- Atualização de Pokémon (Update):
-Um módulo de atualização que permite a modificação dos atributos de um Pokémon existente na Pokedex. Pode incluir validações para garantir consistência.
-- Exclusão de Pokémon (Delete):
-Um módulo de exclusão que remove um Pokémon específico da Pokedex. Pode incluir confirmações para evitar exclusões acidentais.
+
+- A classe PokemonController é um componente Spring Boot responsável por gerenciar as requisições relacionadas aos Pokémons.
+- 
+- Endpoints RESTful:
+
+O controlador define vários endpoints RESTful para realizar operações CRUD (Create, Read, Update, Delete) em entidades Pokemon.
+Exemplos de endpoints incluem:
+GET /pokemons: Retorna todos os Pokémons.
+GET /pokemons/{id}: Retorna um Pokémon específico por ID.
+POST /pokemons: Cria um novo Pokémon.
+PUT /pokemons/{id}: Atualiza um Pokémon existente por ID.
+DELETE /pokemons/{id}: Exclui um Pokémon por ID.
+
+- Reactive Programming:
+
+O uso de tipos reativos (Mono e Flux do Reactor) sugere uma abordagem reativa para manipular assincronamente os dados.
+A resposta do evento (/events) é um exemplo de um fluxo de eventos que emite atualizações a cada 5 segundos.
+Integração com Banco de Dados:
+
+O controlador interage com um repositório (PokemonRepository) para realizar operações de persistência no banco de dados.
+Operações como salvar, buscar por ID, atualizar e excluir são mapeadas para endpoints RESTful.
 
 ## Funcionalidade
 - O primeiro método é o GET,que vai trazer todos os pokémons que foram salvos, no postman ira trazer os seguintes resultados:
