@@ -45,6 +45,7 @@ Um módulo de exclusão que remove um Pokémon específico da Pokedex. Pode incl
 - Operação SET para Modificar Atributos de um Pokémon: : Modifica os atributos de um Pokémon existente com base no ID
 
 - Operação deleted:
+> ![Screenshot 2023-11-23 171919](https://user-images.githubusercontent.com/149121429/285301561-1e587197-1076-4c85-9409-cc55089b468d.png)
 
   
   
